@@ -20,7 +20,8 @@
 
 (define (cube x) (* x x x))
 
-(simpson cube 0 1 1)
-(simpson cube 0 1 10)
-(simpson cube 0 1 100)
-(simpson cube 0 1 1000)
+(simpson cube 0 1.0 1)
+(simpson cube 0 1.0 10)
+(simpson cube 0 1.0 100)
+(simpson cube 0 1.0 1000)
+(simpson cube 0 1.0 10000)
